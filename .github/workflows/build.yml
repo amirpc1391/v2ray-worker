@@ -4,8 +4,7 @@ on:
     branches: ["main"]
   release:
     types: ["published"]
-  dispatch:
-     branches: ["main"]
+  workflow_dispatch:
 jobs:
   build:
     permissions:
